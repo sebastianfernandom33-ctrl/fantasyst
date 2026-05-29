@@ -4,7 +4,7 @@ def lambda_handler(event, context):
 
     response = {
         "user": "sebastian",
-        "subscription": "active"
+        "subscription_status": "active"
     }
 
     return {
