@@ -5,6 +5,7 @@ def lambda_handler(event, context):
     response = {
         "user": "sebastian",
         "subscription": "active"
+    	"plan": "premium"
     }
 
     return {
