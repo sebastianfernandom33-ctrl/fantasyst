@@ -6,6 +6,7 @@ def lambda_handler(event, context):
         "user": "sebastian",
         "subscription": "active"
     	"plan": "premium"
+    	"region": "sa-east-1"
     }
 
     return {
