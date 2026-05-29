@@ -6,37 +6,44 @@ def lambda_handler(event, context):
         "sebastian": {
             "plan": "premium",
             "region": "sa-east-1",
-            "status": "active"
+            "status": "active",
+            "tier": "enterprise"
         },
         "marina": {
             "plan": "basic",
             "region": "us-east-1",
-            "status": "active"
+            "status": "active",
+            "tier": "enterprise"
         },
         "angelica": {
             "plan": "premium",
             "region": "us-east-1",
-            "status": "active"
+            "status": "active",
+            "tier": "enterprise"
         },
         "samuel": {
             "plan": "basic",
             "region": "sa-east-1",
-            "status": "active"
+            "status": "active",
+            "tier": "enterprise"
         },
         "miguel": {
             "plan": "basic",
             "region": "us-west-1",
-            "status": "inactive"
+            "status": "inactive",
+            "tier": "enterprise"
         },
         "northon": {
             "plan": "premium",
             "region": "us-east-2",
-            "status": "active"
+            "status": "active",
+            "tier": "enterprise"
         },
         "sergio": {
             "plan": "premium",
             "region": "us-east-1",
-            "status": "inactive"
+            "status": "inactive",
+            "tier": "enterprise"
         }
     }
 
