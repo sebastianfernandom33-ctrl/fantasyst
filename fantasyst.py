@@ -56,6 +56,20 @@ def lambda_handler(event, context):
         }
     )
 
+    if "plan" in response:
+
+        if response["plan"] == "premium":
+            response["benefits"] = [
+                "metrics",
+                "logging",
+                "monitoring"
+            ]
+
+        elif response["plan"] == "basic":
+            response["benefits"] = [
+                "basic-support"
+            ]
+
     return {
         "statusCode": 200,
         "headers": {
